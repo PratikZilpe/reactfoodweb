@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+  background-image: url("https://thumbs.dreamstime.com/z/wooden-table-food-top-view-cafe-102532611.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  background-image: url("https://thumbs.dreamstime.com/z/wooden-table-food-top-view-cafe-102532611.jpg");
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  background-image: url("https://thumbs.dreamstime.com/z/wooden-table-food-top-view-cafe-102532611.jpg");
+
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-image: url("https://thumbs.dreamstime.com/z/wooden-table-food-top-view-cafe-102532611.jpg");
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container-fluid  {
+  background-color: #61dafb;
+  padding: 20px 0;
+  /* background-image: url("https://thumbs.dreamstime.com/z/wooden-table-food-top-view-cafe-102532611.jpg"); */
+
+}
+
+.header-style {
+  background-color: rgb(0, 255, 255);
+}
